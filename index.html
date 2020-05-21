@@ -1,1 +1,75 @@
-<!-- www.youtube.com/CodeExplained -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Good Going Budget</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="budget-container">
+      <div class="app-title">
+        <a href="https://github.com/priyanshu-shubham">GoodGoing<b>Budget</b></a>
+      </div>
+      <div class="budget-header">
+          <div class="balance">
+              <div class="title">
+                  Balance
+              </div>
+              <div class="value">
+                  <small>$</small>
+              </div>
+          </div>
+          <div class="account">
+              <div class="income">
+                  <div class="title">
+                      Income
+                  </div>
+                  <div class="income-total">
+                      <small>$</small>
+                  </div>
+              </div>
+              <div class="chart"></div>
+              <div class="outcome">
+                  <div class="title">
+                      Outcome
+                  </div>
+                  <div class="outcome-total">
+                      <small>$</small>
+                  </div>
+
+
+
+              </div>
+          </div>
+      </div>
+      <div class="budget-dashboard">
+          <div class="dash-title">Dashboard</div>
+          <div class="toggle">
+              <div class="tab1">Expense</div>
+              <div class="tab2">Income</div>
+              <div class="tab3 active">All</div>
+          </div>
+          <div class="hide" id="expense">
+              <ul class="list"></ul>
+              <div class="input">
+                  <input type="text" id="expense-title-input" name="title" placeholder="Title">
+                  <input type="number" id="expense-amount-input" name="amount" placeholder="$0">
+                  <div class="add-expense"><img src="icon/plus.png" alt=""></div>
+              </div>
+          </div>
+          <div class="hide" id="income">
+              <ul class="list"></ul>
+              <div class="input">
+                  <input type="text" id="income-title-input" name="title" placeholder="Title">
+                  <input type="number" id="income-amount-input" name="amount" placeholder="$0">
+                  <div class="add-expense"><img src="icon/plus.png" alt=""></div>
+              </div>
+          </div>
+          <div id="all"></div>
+      </div>
+    </div>
+
+    <script src="budget.js" charset="utf-8"></script>
+    <script src="chart.js" charset="utf-8"></script>
+  </body>
+</html>
