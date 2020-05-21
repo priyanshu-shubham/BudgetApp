@@ -20,7 +20,7 @@ body{
     font-family: 'Gilroy';
     list-style: none;
     text-decoration: none;
-    -webkit-user-select: none;      
+    -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
@@ -49,7 +49,7 @@ input[type=number] {
 }
 
 .budget-container .app-title{
-    margin-top: 45px;
+    margin-top: 90px;
     margin-left: 20px;
 }
 
@@ -88,7 +88,7 @@ input[type=number] {
     margin: 35px auto 0;
     line-height: 1.7em;
     text-align: center;
-    
+
 }
 
 .budget-header .account .income, .chart, .outcome{
@@ -154,7 +154,7 @@ input[type=number] {
     margin-left: 10px;
 }
 
-.focus{
+.active{
     opacity : 1 !important;
 }
 
@@ -164,7 +164,7 @@ input[type=number] {
 
 .budget-dashboard input{
     /* MAKE INPUT SELECTABLE */
-    -webkit-user-select: auto;      
+    -webkit-user-select: auto;
     -moz-user-select: auto;
     -ms-user-select: auto;
     user-select: auto;
