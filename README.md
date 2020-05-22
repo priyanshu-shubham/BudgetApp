@@ -9,3 +9,7 @@ This app also has a chart, so the user can easily compare the income and outcome
 The user's income and expense entry list is stored in the local storage, so when he refreshes the page, or reboot his machine, he can always find  his data there.
 
 To contribute to this repo, kindly clone it on your local machine and then give a pull request after making changes.
+
+This webapp is live <a href="https://goodgoingbudget.herokuapp.com/index.html" target="_blank">here</a> at https://goodgoingbudget.herokuapp.com/index.html .
+
+Made with ❤ by <a href="https://github.com/priyanshu-shubham/">Priyanshu</a>
