@@ -12,4 +12,5 @@ To contribute to this repo, kindly clone it on your local machine and then give 
 
 This webapp is live <a href="https://goodgoingbudget.herokuapp.com/index.html" target="_blank">here</a> at https://goodgoingbudget.herokuapp.com/index.html .
 
-Made with ❤ by <a href="https://github.com/priyanshu-shubham/">Priyanshu</a>
+by <a href="https://github.com/priyanshu-shubham/">Priyanshu</a>
+<a href="https://github.com/shashwat0003">Shashwat</a>
